@@ -1,2 +1,11 @@
-@omport './'
-@import './base.scss';
+@import '@/assets/layouts/fonts';
+@import '@/assets/layouts/_colors.scss';
+@import '@/assets/layouts/base';
+@import '@/assets/layouts/footer';
+
+//pages
+@import './home';
+@import './feature';
+@import './properties';
+@import './slider';
+@import './banner';

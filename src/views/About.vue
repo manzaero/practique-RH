@@ -1,5 +1,10 @@
 <template>
-  <div class="about">
-    <h1>Help</h1>
+  <div class="container">
+    <h1>About</h1>
   </div>
 </template>
+<script>
+export default {
+  name: 'about'
+}
+</script>

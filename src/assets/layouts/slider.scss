@@ -1,0 +1,72 @@
+@import 'colors';
+.carousel-picture-content {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+  &__img {
+    max-height: 470px;
+    height: 101%;
+  }
+  &__header {
+    position: relative;
+    margin-bottom: 80px;
+    &::after {
+      content: '';
+      border-bottom: 3px solid $red;
+      width: 110px;
+      position: absolute;
+      bottom: -40px;
+    }
+  }
+  &__title{
+    font-size: 45px;
+    margin: 0;
+    position: relative;
+  }
+  &__name {
+    font-size: 25px;
+    padding-bottom: 35px;
+  }
+  &__text {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  &__links {
+    color: $primary;
+  }
+  &__email,
+  &__tel {
+    padding-left: 10px;
+    color: $primary;
+  }
+  &__email{
+    color: $red;
+  }
+
+  &__buttons {
+    bottom: inherit;
+    top: 27px;
+    left: -55px;
+    button {
+      width: 15px !important;
+      height: 15px !important;
+      background: #fff !important;
+      border-radius: 50% !important;
+      border: 1px solid $primary !important;
+      margin-right: 7px !important;
+    }
+    .active {
+      background: $red !important;
+    }
+  }
+
+}

@@ -1,0 +1,27 @@
+@import 'colors';
+@import './fonts';
+.banner {
+  padding-top: 37px;
+  &__content {
+    top: 50px;
+  }
+  &__title {
+    height: 37px;
+    font-family: Raleway;
+    font-size: 37px;
+  }
+  &__button {
+    width: 175px;
+    height: 50px;
+    background: $red;
+    border-radius: 4px;
+    border: 1px solid $grey;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    &:hover {
+      background: $grey;
+      color: $dark;
+    }
+  }
+}

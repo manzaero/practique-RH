@@ -1,0 +1,23 @@
+@import 'colors';
+.feature {
+  padding: 100px 0px;
+  background: $greyDark;
+  text-align: center;
+  &__title{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__p {
+    font-size: 14px;
+  }
+  &__icon,
+  &__title {
+    padding-bottom: 25px;
+  }
+
+  &__col {
+    &__padding{
+      padding: 0 20px;
+    }
+  }
+}

@@ -1,10 +1,12 @@
 <template>
-$END$
+  <div>
+    property
+  </div>
 </template>
 
 <script>
 export default {
-name: "Property"
+  name: "Property"
 }
 </script>
 
